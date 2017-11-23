@@ -1,0 +1,23 @@
+{
+  "name": "kli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinogam/kli.git"
+  },
+  "keywords": [
+    "cli",
+    "kli"
+  ],
+  "author": "kinogam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kinogam/kli/issues"
+  },
+  "homepage": "https://github.com/kinogam/kli#readme"
+}
