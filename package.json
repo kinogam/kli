@@ -2,9 +2,11 @@
   "name": "kli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "kli": "bin/kli",
+    "kli-init": "bin/kli-init",
+    "kli-build": "bin/kli-build",
+    "kli-test": "bin/kli-test"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/kinogam/kli/issues"
   },
-  "homepage": "https://github.com/kinogam/kli#readme"
+  "homepage": "https://github.com/kinogam/kli#readme",
+  "dependencies": {
+    "commander": "^2.12.1"
+  }
 }
